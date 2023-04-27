@@ -1,0 +1,548 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    line-height: 35px;
+}
+a{
+    color: #2A579B;
+}
+/*landing-page guests*/
+#welcome-guests{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 200px 50px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+.fa-bullhorn{
+    padding: 20px 10px;
+    color: #234880;
+}
+.fa-file-image{
+    padding: 20px 20px;
+}
+#header-announcement{
+    font-size: 20px;
+    padding-left: 20px;
+    color: #234880;
+}
+
+#section-about{
+    padding: 50px 30px;
+}
+#about-headertxt{
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 30px;
+}
+#about-img{
+    height: 90%;
+    width: 90%;
+}
+#about-brgy{
+    padding: 0 40px;
+    word-spacing: 5px;
+}
+#about-brgy h5{
+    line-height: 1.6;
+    padding: 20px 0 20px 0;
+}
+#working-committees{
+    padding: 50px 20px 50px 20px;
+    background-color: rgba(101,180,89,0.17);
+    border-radius: 10px;
+}
+.card{
+    border: none;
+}
+.card-text{
+    font-size: 10px;
+    text-align: justify;
+}
+
+
+.btn-modal{
+    background-color: #234880 !important;
+    color: white;
+}
+.content {
+  padding: 0 30px 30px;
+  min-height: calc(100vh - 123px);
+  margin-top: -30px;
+}
+
+#mission-vision-goal{
+    padding: 60px 10px 20px;
+}
+#mission-vision-goal h3{
+    font-weight: bolder;
+    text-shadow: 2px 2px #000000;
+}
+.goals-section, .mission-section{
+    border-right: solid white;
+}
+#mission, #goal, #vision{
+    font-size: 15px;
+    line-height: 29px;
+    text-align: justify;
+    text-shadow: 2px 2px #000000;
+}
+
+.missingreport-banner{
+    background-color: #234880;
+}
+.missingreport-banner h2{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+#services-offer{
+    padding: 60px 10px 20px;
+}
+
+#services-offer h3{
+    font-weight: bolder;
+}
+
+.btn-view{
+    background-color: #65B459 !important;
+    color: white;
+}
+
+
+#mvg-card .card-title{
+    color: #234880;
+    font-weight:bolder;
+}
+#mvg-card .card-body{
+    position: relative;
+    color: #234880;
+}
+#mvg-card .card-body p {
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+#mvg-card i{
+    display: inline-block;
+    width: 100%;
+}
+
+/*end of landing page for guests*/
+
+/*login*/
+#cover-loginreg{
+    /* Set rules to fill background */
+  min-height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/brgy3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+    
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#card-buo{
+  background-color: rgba(138, 255, 120, 0.729);
+    color: black;
+    padding: 35px 40px 35px 40px;
+    margin: 0;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+}
+.card-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 5%;
+}
+#card-buo-resetpass{
+    background-color: rgba(101,180,89,0.7);
+    color: #fefefe;
+    margin: 0;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+#card-login{
+    background-color: transparent;
+    padding: 50px 100px 50px 100px;
+
+}
+#loginForm{
+  display: inline-block
+}
+#card-ng-login{
+  box-shadow: 10px 10px 5px #ececec;
+}
+.btn-forgotpass{
+    font-size: 10px;
+}
+
+.btn-login{
+    background-color: #20AB5C !important;
+    color: white;
+}
+
+.btn-register, .btn-link{
+    font-size: 8px;
+}
+/*end of login panel*/
+
+em { color: red; font-weight: bold; padding-right: .25em; }
+
+.header-logo{
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+.header-content{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  padding-right: 5%;
+  color:white;
+}
+.header-content p{
+  font-size: medium;
+}
+#complaintContainer{
+  height: 500px;
+}
+.container-announcement{
+  padding-top: 7%;
+}
+
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+  .header-content p{
+    font-size: small;
+  }
+  .header-logo{
+    width: 50%;
+    height: 50%;
+  }
+  p, h1, h2, h3, h4, h5, h6{
+    font-size: 15px;
+  }
+  #minimizeSidebar {
+    display: none;
+  }
+
+  .wrapper {
+    -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  }
+  .main-panel{
+    width: auto;
+  }
+
+  @keyframes topbar-x {
+    0% {
+      top: 0px;
+      transform: rotate(0deg);
+    }
+
+    45% {
+      top: 6px;
+      transform: rotate(145deg);
+    }
+
+    75% {
+      transform: rotate(130deg);
+    }
+
+    100% {
+      transform: rotate(135deg);
+    }
+  }
+
+  @-webkit-keyframes topbar-x {
+    0% {
+      top: 0px;
+      -webkit-transform: rotate(0deg);
+    }
+
+    45% {
+      top: 6px;
+      -webkit-transform: rotate(145deg);
+    }
+
+    75% {
+      -webkit-transform: rotate(130deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(135deg);
+    }
+  }
+
+  @-moz-keyframes topbar-x {
+    0% {
+      top: 0px;
+      -moz-transform: rotate(0deg);
+    }
+
+    45% {
+      top: 6px;
+      -moz-transform: rotate(145deg);
+    }
+
+    75% {
+      -moz-transform: rotate(130deg);
+    }
+
+    100% {
+      -moz-transform: rotate(135deg);
+    }
+  }
+
+  @keyframes topbar-back {
+    0% {
+      top: 6px;
+      transform: rotate(135deg);
+    }
+
+    45% {
+      transform: rotate(-10deg);
+    }
+
+    75% {
+      transform: rotate(5deg);
+    }
+
+    100% {
+      top: 0px;
+      transform: rotate(0);
+    }
+  }
+
+  @-webkit-keyframes topbar-back {
+    0% {
+      top: 6px;
+      -webkit-transform: rotate(135deg);
+    }
+
+    45% {
+      -webkit-transform: rotate(-10deg);
+    }
+
+    75% {
+      -webkit-transform: rotate(5deg);
+    }
+
+    100% {
+      top: 0px;
+      -webkit-transform: rotate(0);
+    }
+  }
+
+  @-moz-keyframes topbar-back {
+    0% {
+      top: 6px;
+      -moz-transform: rotate(135deg);
+    }
+
+    45% {
+      -moz-transform: rotate(-10deg);
+    }
+
+    75% {
+      -moz-transform: rotate(5deg);
+    }
+
+    100% {
+      top: 0px;
+      -moz-transform: rotate(0);
+    }
+  }
+
+  @keyframes bottombar-x {
+    0% {
+      bottom: 0px;
+      transform: rotate(0deg);
+    }
+
+    45% {
+      bottom: 6px;
+      transform: rotate(-145deg);
+    }
+
+    75% {
+      transform: rotate(-130deg);
+    }
+
+    100% {
+      transform: rotate(-135deg);
+    }
+  }
+
+  @-webkit-keyframes bottombar-x {
+    0% {
+      bottom: 0px;
+      -webkit-transform: rotate(0deg);
+    }
+
+    45% {
+      bottom: 6px;
+      -webkit-transform: rotate(-145deg);
+    }
+
+    75% {
+      -webkit-transform: rotate(-130deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(-135deg);
+    }
+  }
+
+  @-moz-keyframes bottombar-x {
+    0% {
+      bottom: 0px;
+      -moz-transform: rotate(0deg);
+    }
+
+    45% {
+      bottom: 6px;
+      -moz-transform: rotate(-145deg);
+    }
+
+    75% {
+      -moz-transform: rotate(-130deg);
+    }
+
+    100% {
+      -moz-transform: rotate(-135deg);
+    }
+  }
+
+  @keyframes bottombar-back {
+    0% {
+      bottom: 6px;
+      transform: rotate(-135deg);
+    }
+
+    45% {
+      transform: rotate(10deg);
+    }
+
+    75% {
+      transform: rotate(-5deg);
+    }
+
+    100% {
+      bottom: 0px;
+      transform: rotate(0);
+    }
+  }
+
+  @-webkit-keyframes bottombar-back {
+    0% {
+      bottom: 6px;
+      -webkit-transform: rotate(-135deg);
+    }
+
+    45% {
+      -webkit-transform: rotate(10deg);
+    }
+
+    75% {
+      -webkit-transform: rotate(-5deg);
+    }
+
+    100% {
+      bottom: 0px;
+      -webkit-transform: rotate(0);
+    }
+  }
+
+  @-moz-keyframes bottombar-back {
+    0% {
+      bottom: 6px;
+      -moz-transform: rotate(-135deg);
+    }
+
+    45% {
+      -moz-transform: rotate(10deg);
+    }
+
+    75% {
+      -moz-transform: rotate(-5deg);
+    }
+
+    100% {
+      bottom: 0px;
+      -moz-transform: rotate(0);
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}
+@media screen and (orientation: portrait){
+    label.error { margin-left: 0; display: block; }
+}
+
+@media screen and (orientation: landscape){
+    label.error { display: inline-block; margin-left: 0; }
+}
+@media (min-width: 991px) {
+  .sidebar {
+    display: block;
+    box-shadow: 0px 2px 22px 0 rgba(0, 0, 0, 0.2), 0px 2px 30px 0 rgba(0, 0, 0, 0.35);
+  }
+}
